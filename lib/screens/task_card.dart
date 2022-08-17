@@ -30,7 +30,7 @@ class TaskCard extends StatelessWidget {
               )),
               Padding(
                 padding: const EdgeInsets.only(top:10.0),
-                child: Text(desc??"Hello user! Welcome to the My_Todo app, this is a default task that you can edit or delete to start using the app",
+                child: Text(desc?? "No Description Added",
                 style: TextStyle(
                   color: Color(0xff86829D),
                   fontSize: 16.0,
